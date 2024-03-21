@@ -8,29 +8,58 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Главная</title>
 </head>
-<body>
+<body class="bg-[url(Assets/Images/body/bg.png)] bg-cover bg-no-repeat w-full h-full font-semibold">
     <header class="w-full relative">
-        <div class="flex items-center justify-between container mx-auto px-4">
-            <a href="">
-                <img src="" alt="">
-            </a>
-            <nav class="flex items-center gap-4 max-lg:flex-col bg-white max-lg:absolute max-lg:w-full top-0 left-0 max-lg:-translate-y-full transition-all duration-500 max-lg:py-4" id="menu">
-                <a href="">Home</a>
-                <a href="">About Us</a>
-                <a href="">Services</a>
-                <a href="">Pages</a>
-                <a href="">Contact Us</a>
-            </nav>
-            <button id="toggler" type="button" class="flex flex-col w-6 gap-1 lg:hidden">
-                <span class="w-full rounded-full bg-black h-0.5"></span>
-                <span class="w-full rounded-full bg-black h-0.5"></span>
-                <span class="w-full rounded-full bg-black h-0.5"></span>
-            </button>
+        <div class="flex items-start lg:items-center container mx-auto px-4 py-7 justify-center gap-6 lg:gap-40 text-white text-2xl max-lg:flex-col">
+            <a href="">Проекты</a>
+            <a href="">Контакты</a>
+            <a href="">Главная</a>
+            <a href="">Портфолио</a>
         </div>
     </header>  
+    
+    <main class="flex flex-col gap-6 md:gap-10 xl:gap-16 mt-6 md:mt-10 xl:mt-16">
+        <div class="flex lg:justify-between max-lg:flex-col max-lg:gap-6 lg:gap-20 container mx-auto px-4">
+            <img src="Assets/Images/hero/left.png" alt="" class="lg:w-[55%]">
+            <div class="flex flex-col gap-6 p-4 md:p-6 xl:p-10 h-fit xl:gap-12 rounded-xl bg-[#503290] lg:w-[45%] text-center text-white">
+                <p class="text-3xl">Мокрецов Илья Владимирович</p>
+                <p class="text-xl">Студент 3-го курса университета СПБГУПТД, кафедра “Прикладная информатика в дизайне”.</p>
+            </div>
+        </div>
+        <img src="Assets/Images/body/line.png" alt="" class="w-full">
+        <div class="flex flex-col relative container mx-auto px-4">
+            <p class="rounded-xl bg-[#503290] text-white p-4 md:p-6 xl:p-10 lg:w-[55%] text-3xl">
+                Обладаю навыками работы в программах: Adobe Photoshop, Adobe Illustrator, Figma, Blender, Adobe After Effects, Indesign, Adobe Audition, Adobe Premier Pro, Adobe Animate. Умение соблюдать дедлайны и пожелания заказчика. ответственность и качество главные критерии. 
+                Учавствовал и завершил акселераторскую программу по проекту “Маркетплейс готовых выкроек с 3D примеркой и AR - технологией”.
+            </p>
+            <img src="Assets/Images/hero/vertical.png" alt="" class="ml-12 lg:ml-96 w-fit">
+            <p class="rounded-xl bg-[#503290] text-white p-4 md:p-6 xl:p-10 text-3xl border border-white">Обо мне:
+                Занимаю активную жизненную позицию, люблю творчество и нестандартный взгляд в дизайнерской сфере, за спортивный образ жизни, изучаю новые возможности и следую тенденциям в дизайнерской деятельности.
+            </p>
+            <div class="flex flex-col gap-6 xl:gap-10 text-white mt-6 lg:absolute lg:right-16 xl:right-20">
+                <div class="flex items-center gap-6 text-2xl">
+                    <span class="rounded-full w-10 h-10 border border-white"></span>
+                    <p>Умение работать в команде</p>
+                </div>
+                <div class="flex items-center gap-6 text-2xl">
+                    <span class="rounded-full w-10 h-10 border border-white"></span>
+                    <p>Стрессоустойчивость</p>
+                </div>
+                <div class="flex items-center gap-6 text-2xl">
+                    <span class="rounded-full w-10 h-10 border border-white"></span>
+                    <p>Соблюдение дедлайнов</p>
+                </div>
+            </div>
+        </div>
+    </main>
 
-    <footer>
-
+    <footer class="flex flex-col gap-6 md:gap-10 xl:gap-16 my-6 md:my-10 xl:my-16">
+        <img src="Assets/Images/body/line.png" alt="" class="w-full">
+        <div class="flex items-center max-lg:flex-col container mx-auto px-4 lg:justify-center gap-6 md:gap-10 xl:gap-16 rounded-xl bg-[#503290] text-white py-2">
+            <p class="text-2xl">Связь со мной</p>
+            <a class="text-xl" href="tel:+7 904-648-18-49">+7 904-648-18-49</a>
+            <a class="text-xl" href="mailto:MOKRETSOV2020@mail.ru">MOKRETSOV2020@mail.ru</a>
+        </div>
     </footer>
     
 	<script src="https://code.jquery.com/jquery-3.6.3.min.js" 
