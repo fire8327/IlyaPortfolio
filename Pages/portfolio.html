@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Assets/CSS/custom.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Главная</title>
+    <title>Портфолио</title>
 </head>
 <body class="bg-[url(../Assets/Images/body/bg.png)] bg-cover bg-no-repeat w-full h-full font-semibold">
     <header class="w-full relative">
@@ -18,26 +18,44 @@
         </div>
     </header>  
     
-    <main class="flex flex-col gap-6 md:gap-10 xl:gap-16 mt-6 md:mt-10 xl:mt-16 text-3xl px-4">
-        <div class="rounded-xl bg-[#503290] text-white flex flex-col gap-6 xl:gap-10 lg:mx-auto w-full lg:w-[55%] p-6 md:p-10 xl:p-16">
-            <p>Adobe Illustrator</p>
-            <img src="../Assets/Images/portfolio/1.png" alt="" class="w-full">
+    <main class="flex flex-col gap-8 md:gap-12 xl:gap-20 mt-6 md:mt-10 xl:mt-16 text-3xl px-4">
+        <div class="flex flex-col gap-6 md:gap-10 xl:gap-16" id="mainPagination">
+            <div class="rounded-xl bg-[#503290] text-white flex flex-col gap-6 xl:gap-10 lg:mx-auto w-full lg:w-[55%] p-6 md:p-10 xl:p-16 paginationEl">
+                <p>Adobe Illustrator</p>
+                <img src="../Assets/Images/portfolio/1.png" alt="" class="w-full">
+            </div>
+            <div class="rounded-xl bg-[#503290] text-white flex flex-col gap-6 xl:gap-10 lg:mx-auto w-full lg:w-[55%] p-6 md:p-10 xl:p-16 paginationEl">
+                <p>Adobe Photoshop</p>
+                <img src="../Assets/Images/portfolio/2.png" alt="" class="w-full">
+            </div>
+            <div class="rounded-xl bg-[#503290] text-white flex flex-col gap-6 xl:gap-10 lg:mx-auto w-full lg:w-[55%] p-6 md:p-10 xl:p-16 paginationEl">
+                <p>Blender</p>
+                <img src="../Assets/Images/portfolio/3.png" alt="" class="w-full">
+            </div>
+            <div class="rounded-xl bg-[#503290] text-white flex flex-col gap-6 xl:gap-10 lg:mx-auto w-full lg:w-[55%] p-6 md:p-10 xl:p-16 paginationEl">
+                <p>Adobe Animate</p>
+                <div class="relative w-full overflow-hidden rounded-2xl">
+                    <iframe src="../ракета_HTML5 Canvas.html" frameborder="0" class="w-[1280px] h-[720px]"></iframe>
+                </div>
+            </div>
+            <div class="rounded-xl bg-[#503290] text-white flex flex-col gap-6 xl:gap-10 lg:mx-auto w-full lg:w-[55%] p-6 md:p-10 xl:p-16 paginationEl">
+                <p>Adobe Animate</p>
+                <div class="relative w-full overflow-hidden rounded-2xl">
+                    <iframe src="../рыбки_HTML5 Canvas.html" frameborder="0" class="w-[1280px] h-[720px]"></iframe>
+                </div>
+            </div>
+            <div class="rounded-xl bg-[#503290] text-white flex flex-col gap-6 xl:gap-10 lg:mx-auto w-full lg:w-[55%] p-6 md:p-10 xl:p-16 paginationEl">
+                <p>Adobe Animate</p>
+                <div class="relative w-full overflow-hidden rounded-2xl">
+                    <iframe src="../кости_HTML5 Canvas.html" frameborder="0" class="w-[1280px] h-[720px]"></iframe>
+                </div>
+            </div>
         </div>
-        <div class="rounded-xl bg-[#503290] text-white flex flex-col gap-6 xl:gap-10 lg:mx-auto w-full lg:w-[55%] p-6 md:p-10 xl:p-16">
-            <p>Adobe Photoshop</p>
-            <img src="../Assets/Images/portfolio/2.png" alt="" class="w-full">
-        </div>
-        <div class="rounded-xl bg-[#503290] text-white flex flex-col gap-6 xl:gap-10 lg:mx-auto w-full lg:w-[55%] p-6 md:p-10 xl:p-16">
-            <p>Blender</p>
-            <img src="../Assets/Images/portfolio/3.png" alt="" class="w-full">
-        </div>
-        <div class="rounded-xl bg-[#503290] text-white flex flex-col gap-6 xl:gap-10 lg:mx-auto w-full lg:w-[55%] p-6 md:p-10 xl:p-16">
-            <p>Adobe Animate</p>
-            <img src="../Assets/Images/portfolio/4.gif" alt="" class="w-full rounded-2xl">
+        <div class="flex items-center gap-6 container mx-auto" id="navigationButtons">
         </div>
     </main>
 
-    <footer class="flex flex-col px-4 gap-6 md:gap-10 xl:gap-16 my-6 md:my-10 xl:my-16" id="contacts">
+    <footer class="flex flex-col gap-6 md:gap-10 xl:gap-16 my-6 md:my-10 xl:my-16" id="contacts">
         <img src="../Assets/Images/body/line.png" alt="" class="w-full">
         <div class="px-4">
             <div class="flex items-center max-lg:flex-col container mx-auto px-4 lg:justify-center gap-6 md:gap-10 xl:gap-16 rounded-xl bg-[#503290] text-white py-2">
